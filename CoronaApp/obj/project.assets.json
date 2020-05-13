@@ -661,11 +661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp.csproj",
+      "projectUniqueName": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj",
       "projectName": "CoronaApp",
-      "projectPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp.csproj",
+      "projectPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj",
       "packagesPath": "C:\\Users\\bbdnet2135\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\obj\\",
+      "outputPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
