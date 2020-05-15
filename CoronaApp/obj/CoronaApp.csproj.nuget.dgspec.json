@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj": {}
+    "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaAppthemedemo\\CoronaApp\\CoronaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj": {
+    "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaAppthemedemo\\CoronaApp\\CoronaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj",
+        "projectUniqueName": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaAppthemedemo\\CoronaApp\\CoronaApp.csproj",
         "projectName": "CoronaApp",
-        "projectPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\CoronaApp.csproj",
+        "projectPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaAppthemedemo\\CoronaApp\\CoronaApp.csproj",
         "packagesPath": "C:\\Users\\bbdnet2135\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaApp\\CoronaApp\\obj\\",
+        "outputPath": "C:\\Users\\bbdnet2135\\Desktop\\Grad\\BBD-Csharp\\CoronaAppthemedemo\\CoronaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

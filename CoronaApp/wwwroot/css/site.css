@@ -10,6 +10,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
@@ -24,7 +25,7 @@
     --white: #fff;
     --gray: #858796;
     --gray-dark: #5a5c69;
-    --primary: #4e73df;
+    --primary: #a6ce39;
     --secondary: #858796;
     --success: #1cc88a;
     --info: #36b9cc;
@@ -67,6 +68,48 @@ body {
     color: #858796;
     text-align: left;
     background-color: #fff;
+}
+
+.primary-rounded-circle-opacity {
+    color: #a6ce39 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 100% !important;
+    outline: none !important;
+}
+
+.primary-rounded-circle-opacity:hover {
+    background-color: rgba(166, 206, 57, 0.25) !important;
+    /* #a6ce3926 !important;*/
+}
+
+.primary-rounded-circle-opacity:focus {
+    background-color: rgba(166, 206, 57, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(166, 206, 57, 0) !important;
+}
+
+.primary-bottom-border {
+    outline: none !important;
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.primary-bottom-border ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #a6ce39;
+    transition: 0.4s;
+}
+
+.primary-bottom-border:focus ~ .focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
 }
 
 [tabindex="-1"]:focus {
@@ -4522,7 +4565,7 @@ input[type="button"].btn-block {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid #e3e6f0;
+    /*border: 1px solid #e3e6f0;*/
     border-radius: 0.35rem;
 }
 
@@ -4570,8 +4613,8 @@ input[type="button"].btn-block {
 .card-header {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: #f8f9fc;
-    border-bottom: 1px solid #e3e6f0;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
 }
 
     .card-header:first-child {
@@ -7752,7 +7795,9 @@ button.bg-dark:focus {
 }
 
 .shadow {
-    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    /*box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.2) !important;*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
 }
 
 .shadow-lg {
@@ -10746,11 +10791,11 @@ a:focus {
     }
 
         .topbar #sidebarToggleTop:hover {
-            background-color: #a6ce3954;
+            background-color: rgba(166, 206, 57, 0.25) !important;
         }
 
         .topbar #sidebarToggleTop:active {
-            background-color: #dddfeb;
+            background-color: rgba(166, 206, 57, 0.5) !important;
         }
 
     .topbar .navbar-search {
